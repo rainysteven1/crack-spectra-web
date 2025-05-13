@@ -40,6 +40,17 @@ export const generatedRoutes: GeneratedRoute[] = [
     }
   },
   {
+    name: 'dataset',
+    path: '/dataset',
+    component: 'layout.base$view.dataset',
+    meta: {
+      title: 'dataset',
+      i18nKey: 'route.dataset',
+      icon: 'mdi:database',
+      order: 2
+    }
+  },
+  {
     name: 'home',
     path: '/home',
     component: 'layout.base$view.home',
@@ -73,6 +84,28 @@ export const generatedRoutes: GeneratedRoute[] = [
       i18nKey: 'route.login',
       constant: true,
       hideInMenu: true
+    }
+  },
+  {
+    name: 'model',
+    path: '/model',
+    component: 'layout.base$view.model',
+    meta: {
+      title: 'model',
+      i18nKey: 'route.model',
+      icon: 'mdi:vector-square',
+      order: 3
+    }
+  },
+  {
+    name: 'user',
+    path: '/user',
+    component: 'layout.base$view.user',
+    meta: {
+      title: 'user',
+      i18nKey: 'route.user',
+      icon: 'mdi:account-group',
+      order: 4
     }
   }
 ];
